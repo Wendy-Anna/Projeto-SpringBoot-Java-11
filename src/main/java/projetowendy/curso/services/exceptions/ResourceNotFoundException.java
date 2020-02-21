@@ -7,6 +7,6 @@ public class ResourceNotFoundException extends RuntimeException {
 
 	
 	public ResourceNotFoundException(Object id) {
-		super("Resource not fund.Id: " + id);
+		super("Resource not fund.Id " + id);
 	}
 }
